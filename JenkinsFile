@@ -1,3 +1,4 @@
+withGradle(gradle: 'gradle-8.0')
 pipeline{
     agent any
 }
