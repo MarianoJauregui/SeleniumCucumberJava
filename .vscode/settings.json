@@ -1,0 +1,7 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+
+    //THIS LAST LINE WAS ADDED BY ME
+    "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home"
+} 

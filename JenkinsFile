@@ -1,0 +1,17 @@
+tools{
+    gradle "Gradle"
+}
+
+stages{
+    stage("Cleaning"){
+        steps{
+            git 'https://github.com/MarianoJauregui/SeleniumCucumber.git'
+            sh 'gradle clean'
+        }
+    }
+    stage("Print"){
+        steps{
+            echo "I'm a different stage"
+        }
+    }
+}
