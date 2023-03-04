@@ -1,4 +1,5 @@
 withGradle(gradle: 'gradle-8.0')
+env.JAVA_HOME = '/Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home'
 pipeline{
     agent any
 }
